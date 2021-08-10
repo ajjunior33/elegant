@@ -4,14 +4,12 @@ import { Navbar } from "./style";
 
 import logo from "../../../assets/images/logo.svg";
 import avatar from "../../../assets/images/avatars.svg";
-import menuToggle from "../../../assets/images/menu-toggle.svg";
 
 const ToggleOn = () => {
   return (
     <Navbar>
       <header>
         <img src={logo} alt="" />
-        <img src={menuToggle} alt="toggle" />
       </header>
 
       <nav>
@@ -28,8 +26,8 @@ const ToggleOn = () => {
       <footer>
         <img src={avatar} alt="Avatar" />
         <div>
-          <h3>Nafisa Sh.</h3>
-          <span>Support manager</span>
+          <h3>André Souza.</h3>
+          <span>Developer</span>
         </div>
       </footer>
     </Navbar>

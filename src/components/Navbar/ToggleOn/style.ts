@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Theme } from "../../../styles/Variables";
 
 export const Navbar = styled.section`
-  width: 250px;
+  width: 350px;
   height: 100vh;
   padding: 0 20px;
   background-color: ${Theme.default.primary};
@@ -41,7 +41,7 @@ export const Navbar = styled.section`
     position: absolute;
     bottom: 30px;
     width: 210px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: ${Theme.default.white}10;
 
     display: flex;
     flex-direction: row;
